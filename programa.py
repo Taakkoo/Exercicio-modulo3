@@ -1,0 +1,40 @@
+final = '1'
+while (final == '1'):
+	print ("Escolha sua operação: ")
+	print ("1 - Adição")
+	print ("2 - Subtração")
+	print ("3 - Multiplicação")
+	print ("4 - Divisão")
+	print ("5 - Pontencia")
+	x = input ("Digite sua opção: ")
+	if x == '1':
+	   print ("Você escolheu adição")
+	   y = input ("Digite o primeiro número: ")
+	   z = input ("Digite o segundo número: ")
+	   print (int(y) + int(z))
+	   final = input ("Digite 1 para executar outra operação: ")
+	elif x == '2':
+	   print ("Você escolheu subtração")
+	   y = input ("Digite o primeiro número: ")
+	   z = input ("Digite o segundo número: ")
+	   print (int(y) - int(z))
+	   final = input ("Digite 1 para executar outra operação: ")
+	elif x == '3':
+	   print ("Você escolheu multiplicação")
+	   y = input ("Digite o primeiro número: ")
+	   z = input ("Digite o segundo número: ")
+	   print (int(y) * int(z))
+	   final = input ("Digite 1 para executar outra operação: ")
+	elif x == '4':
+	   print ("Você escolheu divisão")
+	   y = input ("Digite o primeiro número: ")
+	   z = input ("Digite o segundo número: ")
+	   print (int(y) / int(z))
+	   final = input ("Digite 1 para executar outra operação: ")
+	elif x == '5':
+	   print ("Você escolheu potencia")
+	   y = input ("Digite o número da base: ")
+	   z = input ("Digite a potencia: ")
+	   print (int(y) ** int(z))
+	   final = input ("Digite 1 para executar outra operação: ")
+else: print ("Obrigado por usar a calculadora!")

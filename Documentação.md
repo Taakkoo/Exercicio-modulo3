@@ -1,0 +1,2 @@
+Para executar o arquivo .sh, no terminal Linux, abra o arquivo .sh com o editor de texto, em seguida atualize o caminho "python3 /home/augusto/modulo1/exercicio/programa.py" para o diretório em que você salvou o arquivo "programa.py"
+Feito isso, utilize os comandos "sudo chmod +x calculadora.sh" e "sudo chmod +x programa.py" para garantir que os arquivos sejam executáveis, feito isso, execute o script com o comando "./calculadora.sh" ou utilize os comandos "python3 ./programa.py"

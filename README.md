@@ -1,2 +1,3 @@
 Para executar o arquivo .sh, no terminal Linux, abra o arquivo .sh com o editor de texto, em seguida atualize o caminho "python3 /home/augusto/modulo1/exercicio/programa.py" para o diretório em que você salvou o arquivo "programa.py"
 Feito isso, utilize os comandos "sudo chmod +x calculadora.sh" e "sudo chmod +x programa.py" para garantir que os arquivos sejam executáveis, feito isso, execute o script com o comando "./calculadora.sh" ou utilize os comandos "python3 ./programa.py"
+Ao executar o arquivo "calculadora.sh" iniciara um script que irá instalar, ou atualizar o python no computador para a versão 3 e depois irá executar o arquivo "programa.py" que é uma calculadora onde é possível fazer calculos de soma, subtração, divisão, multiplicação e pontência.
